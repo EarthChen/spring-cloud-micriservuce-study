@@ -30,6 +30,7 @@
 		<module>microservice-config-client-eureka</module>
 		<module>microservice-api-gateway</module>
 		<module>microservice-eureka-client</module>
+		<module>microservice-eureka-consumer</module>
 	</modules>
 
 	<parent>

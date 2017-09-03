@@ -1,5 +1,7 @@
 ---
 spring:
+  application:
+    name: eureka-server-peer1
   profiles: peer1 # 指定profile=peer1
 server:
   port: 8761
@@ -11,6 +13,8 @@ eureka:
       defaultZone: http://peer2:8762/eureka/ # 将自己注册到peer2这个Eureka上面去
 ---
 spring:
+  application:
+    name: eureka-server-peer2
   profiles: peer2
 server:
   port: 8762
