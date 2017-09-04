@@ -31,6 +31,7 @@
 		<module>microservice-api-gateway</module>
 		<module>microservice-eureka-client</module>
 		<module>microservice-eureka-consumer</module>
+		<module>microservice-eureka-consumer-ribbon</module>
 	</modules>
 
 	<parent>
