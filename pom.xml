@@ -32,7 +32,8 @@
 		<module>microservice-eureka-client</module>
 		<module>microservice-eureka-consumer</module>
 		<module>microservice-eureka-consumer-ribbon</module>
-	</modules>
+        <module>microservice-eureka-consumer-feign</module>
+    </modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

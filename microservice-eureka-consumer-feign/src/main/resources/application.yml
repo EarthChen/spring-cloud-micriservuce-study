@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eureka-consumer-feign
+
+
+server:
+  port: 2101
+
+eureka:
+  client:
+    service-url:
+      # 讲客户端注册到两个高可用注册中心
+      defaultZone: http://peer1:8761/eureka/,http://peer1:8761/eureka/
