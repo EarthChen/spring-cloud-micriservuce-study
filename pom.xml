@@ -33,7 +33,15 @@
 		<module>microservice-eureka-consumer</module>
 		<module>microservice-eureka-consumer-ribbon</module>
         <module>microservice-eureka-consumer-feign</module>
-    </modules>
+		<module>microservice-config-server-git</module>
+		<module>microservice-config-client</module>
+		<module>microservice-eureka-consumer-ribbon-hystrix</module>
+        <module>hystrix-dashboard</module>
+		<module>turbine</module>
+		<module>turbine-amqp</module>
+		<module>microservice-api-gateway</module>
+		<module>microservice-provider-user</module>
+	</modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
