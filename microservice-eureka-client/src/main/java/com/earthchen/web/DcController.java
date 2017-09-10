@@ -22,7 +22,9 @@ public class DcController {
     }
 
     @GetMapping("/dc")
-    public String dc() {
+    public String dc() throws InterruptedException {
+        //使熔断器触发降级操作
+        //Thread.sleep(5000L);
         String services = "Services: " + discoveryClient.getServices();
         System.out.println(services);
         return services;
